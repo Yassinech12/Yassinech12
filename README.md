@@ -34,19 +34,19 @@ I like building concrete solutions end to end: from collecting and cleaning mess
 ## 🚀 Featured projects
 
 ### 📡 Free Mobile – Automated analysis of customer complaints with LLMs
-*Master's capstone project · team of 5 · my role: Business Analyst / Product Owner*
+*Master's capstone project · team of 5 · my role: Business Analyst / Product Owner · I built the LLM classification and the Streamlit dashboard*
 
 Free Mobile's customer service on X (Twitter) receives a high volume of complaints, with an average response time of **5 days**. We built a POC that detects, classifies and routes complaints automatically.
 
 - 📥 Analyzed **3,044 tweets** → **2,839 complaints** (93.3%), **68.7% high urgency**
 - 🧠 LLM classification with **Mistral-7B** (Ollama) and **structured JSON output** (claim, topic, sentiment, urgency, incident)
-- 🧪 Benchmarked **5 prompting strategies** on 300 annotated tweets, from fixed few-shot to semantic retrieval with MMR (**macro-F1 0.43 → 0.54**)
+- 🧪 Benchmarked **5 prompting strategies** on 300 annotated tweets, from fixed few-shot to semantic retrieval with MMR (**macro-F1 0.43 → 0.90**)
 - ⚙️ End-to-end automation with **n8n** + **FastAPI**: collection → classification → ticket → chatbot → human escalation
 - 📊 **Streamlit dashboard** with 3 views (Manager, Data Analyst, Customer Service Agent)
 
 `Python` `Mistral-7B` `Ollama` `Sentence-Transformers` `n8n` `FastAPI` `Streamlit` `Scrum`
 
-🔗 [Project repository](https://github.com/Houssam-Najih/X_Automation_Project)
+🔗 **[See the repository →](https://github.com/Yassinech12/free-customer-care-llm)**
 
 ---
 
