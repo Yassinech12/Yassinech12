@@ -48,6 +48,18 @@ Free Mobile's customer service on X (Twitter) receives a high volume of complain
 
 🔗 **[See the repository →](https://github.com/Yassinech12/free-customer-care-llm)**
 
+### 📈 E-commerce sales forecasting – Machine learning + Streamlit app
+*Personal project · public dataset UCI Online Retail II (1M+ transactions, 2009–2011)*
+
+- 🧹 Cleaned **1,067,371 transactions**: duplicates, cancellations and the purchases they cancel, non-product lines (93.4% kept)
+- 🔎 EDA: strong Christmas seasonality (November ≈ 2× a normal month), B2B weekly pattern, UK = 85% of revenue
+- 🤖 Compared **4 approaches** on the Sept.–Dec. 2011 season (seasonal baseline, Ridge, Random Forest, XGBoost) with a recursive 100-day forecast: **XGBoost cuts the daily error by 20%**, weekly error ~15%
+- 📊 Interactive **Streamlit app**: KPIs, backtest, forecasts by market and horizon, CSV export
+
+`Python` `Pandas` `scikit-learn` `XGBoost` `Plotly` `Streamlit`
+
+🚀 **[Live demo](https://ecommerce-sales-forecasting-yc.streamlit.app/)** · 🔗 **[Repository](https://github.com/Yassinech12/ecommerce-sales-forecasting)**
+
 ---
 
 ## 🛠️ Tech stack
@@ -63,6 +75,7 @@ Free Mobile's customer service on X (Twitter) receives a high volume of complain
 
 **Machine Learning & Generative AI**<br>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/XGBoost-337AB7?style=flat-square"/>
 <img src="https://img.shields.io/badge/Mistral_AI-FA520F?style=flat-square&logo=mistralai&logoColor=white"/>
 <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/>
 <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
@@ -74,6 +87,7 @@ Free Mobile's customer service on X (Twitter) receives a high volume of complain
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
 <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
 <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white"/>
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white"/>
 <img src="https://img.shields.io/badge/Matplotlib-11557C?style=flat-square"/>
 <img src="https://img.shields.io/badge/Seaborn-4C72B0?style=flat-square"/>
 
